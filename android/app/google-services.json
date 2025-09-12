@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "741179706383",
+    "project_id": "rimes-task",
+    "storage_bucket": "rimes-task.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741179706383:android:84d9c6b9787c4cd4faa77a",
+        "android_client_info": {
+          "package_name": "com.app.rimes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgw0PB99RUEyZCysPTMs9w3vTGsjTVLdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741179706383:android:697d4b7a37e73c45faa77a",
+        "android_client_info": {
+          "package_name": "com.app.rimes.rimes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgw0PB99RUEyZCysPTMs9w3vTGsjTVLdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
