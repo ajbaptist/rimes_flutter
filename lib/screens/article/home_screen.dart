@@ -30,9 +30,10 @@ class _HomeScreenState extends State<HomeScreen> {
           Navigator.pushNamed(context, '/analytics');
         },
         onLogoutTap: () {
-          Navigator.pop(context);
           context.read<AuthBloc>().add(LogoutRequested());
-          Navigator.pushReplacementNamed(context, '/login');
+          Future.delayed(Duration(seconds: 2), () {
+            Navigator.pushReplacementNamed(context, '/login');
+          });
         },
       ),
       appBar: AppBar(

@@ -23,7 +23,11 @@ class ArticleRepository {
   }
 
   Future<void> createArticle(
-      {required String title, required String body}) async {}
+      {required String title, required String body}) async {
+    try {
+      await api.post("/api/articles", {"title": title, "body": body});
+    } catch (e) {}
+  }
 
   Future<void> updateArticle(
       {required String id,
